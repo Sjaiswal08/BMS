@@ -1,0 +1,40 @@
+
+
+.card {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.route-form-card {
+    width: 50%;
+}
+.card-img-top{
+    height: 200px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-add{
+    width: 100%;
+    background: linear-gradient(140deg, #139487, #86c6f4);
+    color: white;
+}
+
+.btn-add:hover{
+    background: linear-gradient(140deg, #86c6f4, #139487);
+}
+
+@media only screen and (max-width: 960px) {
+    .route-form-card {
+        width: 80%;    
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .route-form-card {
+        width: 90%;    
+    }
+}

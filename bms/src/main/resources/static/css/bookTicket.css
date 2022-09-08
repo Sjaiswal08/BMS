@@ -1,0 +1,83 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+body{
+	padding: 0 0 70px;
+    position: relative;
+}
+/* --------------- */
+/* NAVBAR */
+/* --------------- */
+
+.nav-container{
+    padding: 0%;
+}
+
+.logout-btn:hover {
+  background-color: #fff1ce;
+  color: #139487;
+}
+
+/* --------------- */
+/* BOOKING INFO */
+/* --------------- */
+
+.booking-info{
+    margin: 10%;
+}
+.booking-info .card{
+    width: 45rem;
+    border: 1px solid #BFBFBF;
+    box-shadow: 2px 2px 5px #aaaaaa;
+}
+
+.list-group-item-heading{
+    margin-bottom: 8px;
+}
+
+.list-group-item button{
+    color: #fff;
+    font-weight: bold;
+    font-size: 120%;
+}
+.list-group-item .btn:hover{
+    background: linear-gradient(140deg, #86c6f4, #139487);
+    /* border: 2px solid #139487;
+    box-shadow: 2px 2px 5px #139487; */
+}
+
+.info-placeholder{
+    padding-left: 5%;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 90%;
+    font-weight: bold;
+}
+
+.errorcolor input {
+    font-size: 90%;
+    border-color: #e74c3c;
+    border-width: 1.5px;
+}
+
+#seatError{
+    padding-left: 8px;
+}
+.list-group-item .btn{
+    background: linear-gradient(140deg, #139487, #86c6f4);
+}
+
+footer{
+	bottom: 0;
+    height: 70px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+	
+}

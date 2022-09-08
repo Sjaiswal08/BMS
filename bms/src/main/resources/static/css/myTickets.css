@@ -1,0 +1,54 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+body {
+	min-height: 100vh;
+	position: relative;
+	padding-bottom: 70px;
+}
+
+section {
+	margin-top: 7vh;
+}
+
+.expired-ticket-parent {
+	margin-bottom: 10vh;
+}
+
+.details {
+	margin-top: 1vh;
+}
+
+#pnr {
+	color: orangered;
+}
+
+.card {
+	box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+}
+
+.expired-ticket-parent .card {
+	opacity: 0.7;
+}
+
+.text-red {
+	color: red;
+}
+
+.book-success-mssg {
+	border-bottom: 1px solid black;
+}
+
+.modal-body {
+	padding: 2rem;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+}

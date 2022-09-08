@@ -1,0 +1,94 @@
+/* TAGS */
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+section{
+    padding-top: 20px;
+}
+
+/* CAROUSAL */
+#carousel-section{
+	background-color: #e3e3e3;
+}
+
+.carousel .carousel-inner{
+    height:600px
+    }
+    .carousel-inner .carousel-item img{
+    min-height:200px;
+    object-fit: cover;
+    object-position: top;
+    }
+    
+    @media(max-width:768px){
+    .carousel .carousel-inner{
+    height:auto
+     }
+    }
+
+
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+.carousel-caption div {
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.trickcenter {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Promise section */
+
+.promise-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #e3e3e3;
+}
+
+.promise-heading{
+    padding-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card {
+    padding-top: 2rem;
+    letter-spacing: 1px;
+}
+
+
+.card .card-title {
+    text-transform: uppercase;
+}
+
+.card-icon{
+    font-size: 6rem;
+}
+
+
+.promise-heading{
+    opacity: 1;
+} 
+
+.card{
+    opacity: 1;
+}
